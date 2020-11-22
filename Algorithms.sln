@@ -11,11 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursiveDrawing", "Recursi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursiveFactorial", "Recursion and Backtracking\RecursiveFactorial\RecursiveFactorial.csproj", "{6686B569-1F99-4EB4-A7C6-2BA4A6DBF917}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generating0-1Vectors", "Recursion and Backtracking\Generating0-1Vectors\Generating0-1Vectors.csproj", "{77C73F97-2CA7-44CD-905C-FF63AF99B438}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generating0-1Vectors", "Recursion and Backtracking\Generating0-1Vectors\Generating0-1Vectors.csproj", "{77C73F97-2CA7-44CD-905C-FF63AF99B438}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathsInLabyrinth", "Recursion and Backtracking\PathsInLabyrinth\PathsInLabyrinth.csproj", "{FAF77CE8-95C1-4DD8-8797-A97EE1AD4D75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PathsInLabyrinth", "Recursion and Backtracking\PathsInLabyrinth\PathsInLabyrinth.csproj", "{FAF77CE8-95C1-4DD8-8797-A97EE1AD4D75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EightQueensProblem", "Recursion and Backtracking\EightQueensProblem\EightQueensProblem.csproj", "{85057AB9-85CD-401F-B3D4-05B88884FC90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EightQueensProblem", "Recursion and Backtracking\EightQueensProblem\EightQueensProblem.csproj", "{85057AB9-85CD-401F-B3D4-05B88884FC90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci", "Recursion and Backtracking\Fibonacci\Fibonacci.csproj", "{01BDE8D6-214B-4C9F-9FED-318DA31AE502}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{85057AB9-85CD-401F-B3D4-05B88884FC90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85057AB9-85CD-401F-B3D4-05B88884FC90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85057AB9-85CD-401F-B3D4-05B88884FC90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01BDE8D6-214B-4C9F-9FED-318DA31AE502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01BDE8D6-214B-4C9F-9FED-318DA31AE502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01BDE8D6-214B-4C9F-9FED-318DA31AE502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01BDE8D6-214B-4C9F-9FED-318DA31AE502}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +64,7 @@ Global
 		{77C73F97-2CA7-44CD-905C-FF63AF99B438} = {80D7B931-4B2F-4D2B-9E52-ACA0EF803AA9}
 		{FAF77CE8-95C1-4DD8-8797-A97EE1AD4D75} = {80D7B931-4B2F-4D2B-9E52-ACA0EF803AA9}
 		{85057AB9-85CD-401F-B3D4-05B88884FC90} = {80D7B931-4B2F-4D2B-9E52-ACA0EF803AA9}
+		{01BDE8D6-214B-4C9F-9FED-318DA31AE502} = {80D7B931-4B2F-4D2B-9E52-ACA0EF803AA9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81AB49DE-2047-4F06-AD90-24A5F08CD024}
