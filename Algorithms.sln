@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recursion and Backtracking"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveArraySum", "Recursion and Backtracking\RecursiveArraySum\RecursiveArraySum.csproj", "{FB4DD1D4-54B3-45FB-BD06-2563AB5CF245}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveDrawing", "Recursion and Backtracking\RecursiveDrawing\RecursiveDrawing.csproj", "{C085559D-876D-42AF-97F1-866D8E50F134}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveFactorial", "Recursion and Backtracking\RecursiveFactorial\RecursiveFactorial.csproj", "{6686B569-1F99-4EB4-A7C6-2BA4A6DBF917}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,22 @@ Global
 		{FB4DD1D4-54B3-45FB-BD06-2563AB5CF245}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB4DD1D4-54B3-45FB-BD06-2563AB5CF245}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB4DD1D4-54B3-45FB-BD06-2563AB5CF245}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C085559D-876D-42AF-97F1-866D8E50F134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C085559D-876D-42AF-97F1-866D8E50F134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C085559D-876D-42AF-97F1-866D8E50F134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C085559D-876D-42AF-97F1-866D8E50F134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6686B569-1F99-4EB4-A7C6-2BA4A6DBF917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6686B569-1F99-4EB4-A7C6-2BA4A6DBF917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6686B569-1F99-4EB4-A7C6-2BA4A6DBF917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6686B569-1F99-4EB4-A7C6-2BA4A6DBF917}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FB4DD1D4-54B3-45FB-BD06-2563AB5CF245} = {80D7B931-4B2F-4D2B-9E52-ACA0EF803AA9}
+		{C085559D-876D-42AF-97F1-866D8E50F134} = {80D7B931-4B2F-4D2B-9E52-ACA0EF803AA9}
+		{6686B569-1F99-4EB4-A7C6-2BA4A6DBF917} = {80D7B931-4B2F-4D2B-9E52-ACA0EF803AA9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81AB49DE-2047-4F06-AD90-24A5F08CD024}
