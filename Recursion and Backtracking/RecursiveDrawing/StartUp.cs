@@ -6,38 +6,22 @@ namespace RecursiveDrawing
     {
         static void Main()
         {
-            var number = int.Parse(Console.ReadLine());
-            PrintFigure(number);
+            var size = int.Parse(Console.ReadLine());
+            PrintFigure(size);
         }
 
-        private static void PrintFigure(int number)
+        private static void PrintFigure(int size)
         {
-            PrintStars(number);
-            PrintHashTags(1,number);
-        }
-
-        private static void PrintStars(int number)
-        {
-            if (number == 0)
+            if (size == 0)
             {
                 return;
             }
 
-            Console.WriteLine(new string('*',number));
+            Console.WriteLine(new string('*', size));
 
-            PrintStars(number-1);
-        }
+            PrintFigure(size - 1);
 
-        private static void PrintHashTags(int startNumber,int number)
-        {
-            if (startNumber > number)
-            {
-                return;
-            }
-
-            Console.WriteLine(new string('#',startNumber));
-
-            PrintHashTags(startNumber+1,number);
+            Console.WriteLine(new string('#', size));
         }
     }
 }

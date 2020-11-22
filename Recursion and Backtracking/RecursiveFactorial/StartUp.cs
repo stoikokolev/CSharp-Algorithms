@@ -4,7 +4,7 @@ namespace RecursiveFactorial
 {
     public class StartUp
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var number = int.Parse(Console.ReadLine());
 
