@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursiveFactorial", "Recur
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generating0-1Vectors", "Recursion and Backtracking\Generating0-1Vectors\Generating0-1Vectors.csproj", "{77C73F97-2CA7-44CD-905C-FF63AF99B438}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathsInLabyrinth", "Recursion and Backtracking\PathsInLabyrinth\PathsInLabyrinth.csproj", "{FAF77CE8-95C1-4DD8-8797-A97EE1AD4D75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{77C73F97-2CA7-44CD-905C-FF63AF99B438}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77C73F97-2CA7-44CD-905C-FF63AF99B438}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77C73F97-2CA7-44CD-905C-FF63AF99B438}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAF77CE8-95C1-4DD8-8797-A97EE1AD4D75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAF77CE8-95C1-4DD8-8797-A97EE1AD4D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAF77CE8-95C1-4DD8-8797-A97EE1AD4D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAF77CE8-95C1-4DD8-8797-A97EE1AD4D75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{C085559D-876D-42AF-97F1-866D8E50F134} = {80D7B931-4B2F-4D2B-9E52-ACA0EF803AA9}
 		{6686B569-1F99-4EB4-A7C6-2BA4A6DBF917} = {80D7B931-4B2F-4D2B-9E52-ACA0EF803AA9}
 		{77C73F97-2CA7-44CD-905C-FF63AF99B438} = {80D7B931-4B2F-4D2B-9E52-ACA0EF803AA9}
+		{FAF77CE8-95C1-4DD8-8797-A97EE1AD4D75} = {80D7B931-4B2F-4D2B-9E52-ACA0EF803AA9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81AB49DE-2047-4F06-AD90-24A5F08CD024}
