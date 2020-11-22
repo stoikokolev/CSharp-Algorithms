@@ -5,9 +5,24 @@ VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recursion and Backtracking", "Recursion and Backtracking", "{80D7B931-4B2F-4D2B-9E52-ACA0EF803AA9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveArraySum", "Recursion and Backtracking\RecursiveArraySum\RecursiveArraySum.csproj", "{FB4DD1D4-54B3-45FB-BD06-2563AB5CF245}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB4DD1D4-54B3-45FB-BD06-2563AB5CF245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB4DD1D4-54B3-45FB-BD06-2563AB5CF245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB4DD1D4-54B3-45FB-BD06-2563AB5CF245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB4DD1D4-54B3-45FB-BD06-2563AB5CF245}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FB4DD1D4-54B3-45FB-BD06-2563AB5CF245} = {80D7B931-4B2F-4D2B-9E52-ACA0EF803AA9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81AB49DE-2047-4F06-AD90-24A5F08CD024}
