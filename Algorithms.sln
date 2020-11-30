@@ -21,9 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fibonacci", "Recursion and 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sorting Algorithms", "Sorting Algorithms", "{D4BB134E-266A-4387-8B3E-3DAFECD76935}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSort", "Sorting Algorithms\BubbleSort\BubbleSort.csproj", "{F1D8F424-7772-47EF-8FFF-E1C0B9591434}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BubbleSort", "Sorting Algorithms\BubbleSort\BubbleSort.csproj", "{F1D8F424-7772-47EF-8FFF-E1C0B9591434}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionSort", "Sorting Algorithms\SelectionSort\SelectionSort.csproj", "{CE512199-BAFA-4F7A-8331-9C54CF3FBBF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelectionSort", "Sorting Algorithms\SelectionSort\SelectionSort.csproj", "{CE512199-BAFA-4F7A-8331-9C54CF3FBBF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertionSort", "Sorting Algorithms\InsertionSort\InsertionSort.csproj", "{5418C892-4F12-4842-890E-9FB11FFA9BFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +69,10 @@ Global
 		{CE512199-BAFA-4F7A-8331-9C54CF3FBBF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE512199-BAFA-4F7A-8331-9C54CF3FBBF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE512199-BAFA-4F7A-8331-9C54CF3FBBF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5418C892-4F12-4842-890E-9FB11FFA9BFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5418C892-4F12-4842-890E-9FB11FFA9BFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5418C892-4F12-4842-890E-9FB11FFA9BFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5418C892-4F12-4842-890E-9FB11FFA9BFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,6 +87,7 @@ Global
 		{01BDE8D6-214B-4C9F-9FED-318DA31AE502} = {80D7B931-4B2F-4D2B-9E52-ACA0EF803AA9}
 		{F1D8F424-7772-47EF-8FFF-E1C0B9591434} = {D4BB134E-266A-4387-8B3E-3DAFECD76935}
 		{CE512199-BAFA-4F7A-8331-9C54CF3FBBF8} = {D4BB134E-266A-4387-8B3E-3DAFECD76935}
+		{5418C892-4F12-4842-890E-9FB11FFA9BFE} = {D4BB134E-266A-4387-8B3E-3DAFECD76935}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81AB49DE-2047-4F06-AD90-24A5F08CD024}
