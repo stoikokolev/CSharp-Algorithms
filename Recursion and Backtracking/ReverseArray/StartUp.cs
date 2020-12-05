@@ -21,7 +21,7 @@ namespace ReverseArray
             }
 
             var right = array.Length - 1 - left;
-            Swap(array, left, right);
+            Swap(array, left, right); 
 
             ReverseArr(left+1,array);
         }
