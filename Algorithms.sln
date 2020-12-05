@@ -59,6 +59,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectedAreasInAMatrix", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema", "Combinatorial Problems\Cinema\Cinema.csproj", "{0D5537CE-29B5-4CC6-8779-8690817210EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolTeams", "Combinatorial Problems\SchoolTeams\SchoolTeams.csproj", "{30FF530D-C625-45C2-B01C-C3E8E01B7A9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCruncher", "Recursion and Backtracking\WordCruncher\WordCruncher.csproj", "{077768D5-012C-425B-96E9-20951D5FECFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +169,14 @@ Global
 		{0D5537CE-29B5-4CC6-8779-8690817210EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D5537CE-29B5-4CC6-8779-8690817210EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D5537CE-29B5-4CC6-8779-8690817210EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30FF530D-C625-45C2-B01C-C3E8E01B7A9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30FF530D-C625-45C2-B01C-C3E8E01B7A9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30FF530D-C625-45C2-B01C-C3E8E01B7A9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30FF530D-C625-45C2-B01C-C3E8E01B7A9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{077768D5-012C-425B-96E9-20951D5FECFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{077768D5-012C-425B-96E9-20951D5FECFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{077768D5-012C-425B-96E9-20951D5FECFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{077768D5-012C-425B-96E9-20951D5FECFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -195,6 +207,8 @@ Global
 		{D9FB7E6A-1FA0-4BB9-B143-A1F9341BA5F2} = {240A352D-00EB-4966-87E5-A572845DF6EF}
 		{B81EADF6-84BD-42A8-B8F4-86C5E670A572} = {80D7B931-4B2F-4D2B-9E52-ACA0EF803AA9}
 		{0D5537CE-29B5-4CC6-8779-8690817210EA} = {240A352D-00EB-4966-87E5-A572845DF6EF}
+		{30FF530D-C625-45C2-B01C-C3E8E01B7A9D} = {240A352D-00EB-4966-87E5-A572845DF6EF}
+		{077768D5-012C-425B-96E9-20951D5FECFD} = {80D7B931-4B2F-4D2B-9E52-ACA0EF803AA9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81AB49DE-2047-4F06-AD90-24A5F08CD024}
