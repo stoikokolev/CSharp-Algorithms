@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace BubbleSort
 {
@@ -6,7 +7,7 @@ namespace BubbleSort
     {
         static void Main()
         {
-            var sorted = BubbleSort(new[] { 7, 123, 6, -6, 0 ,11,1111,1,1,11,23,-2222,-3,0});
+            var sorted = BubbleSort(Console.ReadLine().Split().Select(int.Parse).ToArray());
 
             Console.WriteLine(string.Join(' ', sorted));
         }

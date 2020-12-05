@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace MergeSort
 {
@@ -6,7 +7,7 @@ namespace MergeSort
     {
         static void Main()
         {
-            var sorted = new[] { 7, 123, 6, -6, 0, 11, 1111, 1, 1, 11, 23, -2222, -3, 0 };
+            var sorted = Console.ReadLine().Split().Select(int.Parse).ToArray();
             MergeSort(sorted);
 
             Console.WriteLine(string.Join(' ', sorted));
