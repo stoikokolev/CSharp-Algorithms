@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace PermutationsWithRepetitions
@@ -6,14 +7,10 @@ namespace PermutationsWithRepetitions
     public class StartUp
     {
         private static string[] _elements;
-        private static string[] _permutations;
-        private static bool[] _used;
 
         static void Main()
         {
             _elements = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries).ToArray();
-            _permutations = new string[_elements.Length];
-            _used = new bool[_elements.Length];
 
             Permute(0);
         }
@@ -22,17 +19,31 @@ namespace PermutationsWithRepetitions
         {
             if (permutationsIndex >= _elements.Length)
             {
-                Console.WriteLine(string.Join(' ', _permutations));
+                Console.WriteLine(string.Join(' ', _elements));
                 return;
             }
 
-            for (int elementIndex = 0; elementIndex < _elements.Length; elementIndex++)
+            Permute(permutationsIndex + 1);
+
+            var swapped = new HashSet<string>() { _elements[permutationsIndex] };
+
+            for (int i = permutationsIndex + 1; i < _elements.Length; i++)
             {
-
-                _permutations[permutationsIndex] = _elements[elementIndex];
-                Permute(permutationsIndex + 1);
-
+                if (!swapped.Contains(_elements[i]))
+                {
+                    Swap(permutationsIndex, i);
+                    Permute(permutationsIndex + 1);
+                    Swap(permutationsIndex, i);
+                    swapped.Add(_elements[i]);
+                }
             }
+        }
+
+        private static void Swap(int first, int second)
+        {
+            var temp = _elements[first];
+            _elements[first] = _elements[second];
+            _elements[second] = temp;
         }
     }
 }
