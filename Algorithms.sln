@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombinationsWithRepetitionE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombinationsWithoutRepetitionExercise", "Combinatorial Problems\CombinationsWithoutRepetitionExercise\CombinationsWithoutRepetitionExercise.csproj", "{D9FB7E6A-1FA0-4BB9-B143-A1F9341BA5F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectedAreasInAMatrix", "Recursion and Backtracking\ConnectedAreasInAMatrix\ConnectedAreasInAMatrix.csproj", "{B81EADF6-84BD-42A8-B8F4-86C5E670A572}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{D9FB7E6A-1FA0-4BB9-B143-A1F9341BA5F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9FB7E6A-1FA0-4BB9-B143-A1F9341BA5F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9FB7E6A-1FA0-4BB9-B143-A1F9341BA5F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B81EADF6-84BD-42A8-B8F4-86C5E670A572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B81EADF6-84BD-42A8-B8F4-86C5E670A572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B81EADF6-84BD-42A8-B8F4-86C5E670A572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B81EADF6-84BD-42A8-B8F4-86C5E670A572}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -181,6 +187,7 @@ Global
 		{5AC9DE34-3B37-49EA-8B89-7D6EEBE45AEB} = {80D7B931-4B2F-4D2B-9E52-ACA0EF803AA9}
 		{720D31CD-C018-4E43-8F1B-3CE744AC482B} = {240A352D-00EB-4966-87E5-A572845DF6EF}
 		{D9FB7E6A-1FA0-4BB9-B143-A1F9341BA5F2} = {240A352D-00EB-4966-87E5-A572845DF6EF}
+		{B81EADF6-84BD-42A8-B8F4-86C5E670A572} = {80D7B931-4B2F-4D2B-9E52-ACA0EF803AA9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81AB49DE-2047-4F06-AD90-24A5F08CD024}
