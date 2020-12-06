@@ -11,13 +11,14 @@ namespace ConnectedComponents
 
         public static void Main()
         {
-            var nodesNumer = int.Parse(Console.ReadLine());
+            var nodesNumber = int.Parse(Console.ReadLine());
 
             _graph = new Dictionary<int, List<int>>();
 
-            for (int i = 0; i < nodesNumer; i++)
+            for (int i = 0; i < nodesNumber; i++)
             {
-                var edges = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries).Select(int.Parse)
+                var edges = Console.ReadLine()
+                    ?.Split(' ', StringSplitOptions.RemoveEmptyEntries).Select(int.Parse)
                     .ToList();
                 _graph.Add(i, edges);
             }
