@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EightQueensProblem", "Recur
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fibonacci", "Recursion and Backtracking\Fibonacci\Fibonacci.csproj", "{01BDE8D6-214B-4C9F-9FED-318DA31AE502}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sorting Algorithms", "Sorting Algorithms", "{D4BB134E-266A-4387-8B3E-3DAFECD76935}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sorting and Greedy Algorithms", "Sorting and Greedy Algorithms", "{D4BB134E-266A-4387-8B3E-3DAFECD76935}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BubbleSort", "Sorting Algorithms\BubbleSort\BubbleSort.csproj", "{F1D8F424-7772-47EF-8FFF-E1C0B9591434}"
 EndProject
@@ -47,21 +47,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CombinationsWithRepetitions
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "N-Choose--K-Count", "Combinatorial Problems\N-Choose--K-Count\N-Choose--K-Count.csproj", "{3CA572D9-441D-4FFD-9906-B92AC5E770D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedLoopsToRecursion", "Recursion and Backtracking\NestedLoopsToRecursion\NestedLoopsToRecursion.csproj", "{C82C59D6-544C-42EE-B0AF-2AE5516502DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NestedLoopsToRecursion", "Recursion and Backtracking\NestedLoopsToRecursion\NestedLoopsToRecursion.csproj", "{C82C59D6-544C-42EE-B0AF-2AE5516502DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseArray", "Recursion and Backtracking\ReverseArray\ReverseArray.csproj", "{5AC9DE34-3B37-49EA-8B89-7D6EEBE45AEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseArray", "Recursion and Backtracking\ReverseArray\ReverseArray.csproj", "{5AC9DE34-3B37-49EA-8B89-7D6EEBE45AEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombinationsWithRepetitionExercise", "Combinatorial Problems\CombinationsWithRepetitionExcercise\CombinationsWithRepetitionExercise.csproj", "{720D31CD-C018-4E43-8F1B-3CE744AC482B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CombinationsWithRepetitionExercise", "Combinatorial Problems\CombinationsWithRepetitionExcercise\CombinationsWithRepetitionExercise.csproj", "{720D31CD-C018-4E43-8F1B-3CE744AC482B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombinationsWithoutRepetitionExercise", "Combinatorial Problems\CombinationsWithoutRepetitionExercise\CombinationsWithoutRepetitionExercise.csproj", "{D9FB7E6A-1FA0-4BB9-B143-A1F9341BA5F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CombinationsWithoutRepetitionExercise", "Combinatorial Problems\CombinationsWithoutRepetitionExercise\CombinationsWithoutRepetitionExercise.csproj", "{D9FB7E6A-1FA0-4BB9-B143-A1F9341BA5F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectedAreasInAMatrix", "Recursion and Backtracking\ConnectedAreasInAMatrix\ConnectedAreasInAMatrix.csproj", "{B81EADF6-84BD-42A8-B8F4-86C5E670A572}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConnectedAreasInAMatrix", "Recursion and Backtracking\ConnectedAreasInAMatrix\ConnectedAreasInAMatrix.csproj", "{B81EADF6-84BD-42A8-B8F4-86C5E670A572}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema", "Combinatorial Problems\Cinema\Cinema.csproj", "{0D5537CE-29B5-4CC6-8779-8690817210EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cinema", "Combinatorial Problems\Cinema\Cinema.csproj", "{0D5537CE-29B5-4CC6-8779-8690817210EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolTeams", "Combinatorial Problems\SchoolTeams\SchoolTeams.csproj", "{30FF530D-C625-45C2-B01C-C3E8E01B7A9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolTeams", "Combinatorial Problems\SchoolTeams\SchoolTeams.csproj", "{30FF530D-C625-45C2-B01C-C3E8E01B7A9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCruncher", "Recursion and Backtracking\WordCruncher\WordCruncher.csproj", "{077768D5-012C-425B-96E9-20951D5FECFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordCruncher", "Recursion and Backtracking\WordCruncher\WordCruncher.csproj", "{077768D5-012C-425B-96E9-20951D5FECFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "Sorting Algorithms\BinarySearch\BinarySearch.csproj", "{0480C6E1-D64B-449A-BF4E-0975A874AEEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfCoins", "Sorting Algorithms\SumOfCoins\SumOfCoins.csproj", "{A1FE5797-907D-438A-9E40-EE7290BBC5A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +181,14 @@ Global
 		{077768D5-012C-425B-96E9-20951D5FECFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{077768D5-012C-425B-96E9-20951D5FECFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{077768D5-012C-425B-96E9-20951D5FECFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0480C6E1-D64B-449A-BF4E-0975A874AEEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0480C6E1-D64B-449A-BF4E-0975A874AEEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0480C6E1-D64B-449A-BF4E-0975A874AEEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0480C6E1-D64B-449A-BF4E-0975A874AEEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1FE5797-907D-438A-9E40-EE7290BBC5A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1FE5797-907D-438A-9E40-EE7290BBC5A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1FE5797-907D-438A-9E40-EE7290BBC5A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1FE5797-907D-438A-9E40-EE7290BBC5A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -209,6 +221,8 @@ Global
 		{0D5537CE-29B5-4CC6-8779-8690817210EA} = {240A352D-00EB-4966-87E5-A572845DF6EF}
 		{30FF530D-C625-45C2-B01C-C3E8E01B7A9D} = {240A352D-00EB-4966-87E5-A572845DF6EF}
 		{077768D5-012C-425B-96E9-20951D5FECFD} = {80D7B931-4B2F-4D2B-9E52-ACA0EF803AA9}
+		{0480C6E1-D64B-449A-BF4E-0975A874AEEE} = {D4BB134E-266A-4387-8B3E-3DAFECD76935}
+		{A1FE5797-907D-438A-9E40-EE7290BBC5A4} = {D4BB134E-266A-4387-8B3E-3DAFECD76935}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81AB49DE-2047-4F06-AD90-24A5F08CD024}
