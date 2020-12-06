@@ -73,6 +73,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectedComponents", "Grap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFSAndBFS", "Graph Theory, Traversal, Shortest Paths\DFSAndBFS\DFSAndBFS.csproj", "{4030A2DC-12D6-4A40-919D-6F41F9FE4E24}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceRemovalTopologicalSorting", "Graph Theory, Traversal, Shortest Paths\SourceRemovalTopologicalSorting\SourceRemovalTopologicalSorting.csproj", "{369B74E1-4277-4716-B0B4-4B2D3C1EEC76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -203,6 +205,10 @@ Global
 		{4030A2DC-12D6-4A40-919D-6F41F9FE4E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4030A2DC-12D6-4A40-919D-6F41F9FE4E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4030A2DC-12D6-4A40-919D-6F41F9FE4E24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{369B74E1-4277-4716-B0B4-4B2D3C1EEC76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{369B74E1-4277-4716-B0B4-4B2D3C1EEC76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{369B74E1-4277-4716-B0B4-4B2D3C1EEC76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{369B74E1-4277-4716-B0B4-4B2D3C1EEC76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -239,6 +245,7 @@ Global
 		{A1FE5797-907D-438A-9E40-EE7290BBC5A4} = {D4BB134E-266A-4387-8B3E-3DAFECD76935}
 		{3D0C4861-7490-40F9-BEF5-82FD68581638} = {2D7055CD-6C62-4A36-A8A0-D12E8AA19307}
 		{4030A2DC-12D6-4A40-919D-6F41F9FE4E24} = {2D7055CD-6C62-4A36-A8A0-D12E8AA19307}
+		{369B74E1-4277-4716-B0B4-4B2D3C1EEC76} = {2D7055CD-6C62-4A36-A8A0-D12E8AA19307}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81AB49DE-2047-4F06-AD90-24A5F08CD024}
