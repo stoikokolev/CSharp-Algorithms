@@ -69,11 +69,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfCoins", "Sorting Algor
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Graph Theory, Traversal, Shortest Paths", "Graph Theory, Traversal, Shortest Paths", "{2D7055CD-6C62-4A36-A8A0-D12E8AA19307}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectedComponents", "Graph Theory, Traversal, Shortest Paths\ConnectedComponents\ConnectedComponents.csproj", "{3D0C4861-7490-40F9-BEF5-82FD68581638}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConnectedComponents", "Graph Theory, Traversal, Shortest Paths\ConnectedComponents\ConnectedComponents.csproj", "{3D0C4861-7490-40F9-BEF5-82FD68581638}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFSAndBFS", "Graph Theory, Traversal, Shortest Paths\DFSAndBFS\DFSAndBFS.csproj", "{4030A2DC-12D6-4A40-919D-6F41F9FE4E24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DFSAndBFS", "Graph Theory, Traversal, Shortest Paths\DFSAndBFS\DFSAndBFS.csproj", "{4030A2DC-12D6-4A40-919D-6F41F9FE4E24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceRemovalTopologicalSorting", "Graph Theory, Traversal, Shortest Paths\SourceRemovalTopologicalSorting\SourceRemovalTopologicalSorting.csproj", "{369B74E1-4277-4716-B0B4-4B2D3C1EEC76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SourceRemovalTopologicalSorting", "Graph Theory, Traversal, Shortest Paths\SourceRemovalTopologicalSorting\SourceRemovalTopologicalSorting.csproj", "{369B74E1-4277-4716-B0B4-4B2D3C1EEC76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortestPath", "Graph Theory, Traversal, Shortest Paths\ShortestPath\ShortestPath.csproj", "{61B5EF7A-6146-4463-8E25-70F733DCB5C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -209,6 +211,10 @@ Global
 		{369B74E1-4277-4716-B0B4-4B2D3C1EEC76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{369B74E1-4277-4716-B0B4-4B2D3C1EEC76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{369B74E1-4277-4716-B0B4-4B2D3C1EEC76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61B5EF7A-6146-4463-8E25-70F733DCB5C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61B5EF7A-6146-4463-8E25-70F733DCB5C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61B5EF7A-6146-4463-8E25-70F733DCB5C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61B5EF7A-6146-4463-8E25-70F733DCB5C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -246,6 +252,7 @@ Global
 		{3D0C4861-7490-40F9-BEF5-82FD68581638} = {2D7055CD-6C62-4A36-A8A0-D12E8AA19307}
 		{4030A2DC-12D6-4A40-919D-6F41F9FE4E24} = {2D7055CD-6C62-4A36-A8A0-D12E8AA19307}
 		{369B74E1-4277-4716-B0B4-4B2D3C1EEC76} = {2D7055CD-6C62-4A36-A8A0-D12E8AA19307}
+		{61B5EF7A-6146-4463-8E25-70F733DCB5C7} = {2D7055CD-6C62-4A36-A8A0-D12E8AA19307}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81AB49DE-2047-4F06-AD90-24A5F08CD024}
