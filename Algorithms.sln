@@ -83,6 +83,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreasInMatrix", "Graph Theo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyclesInAGraph", "Graph Theory, Traversal, Shortest Paths\CyclesInAGraph\CyclesInAGraph.csproj", "{172F0307-9D8B-4914-9C68-0BDB9AFAC81F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Salaries", "Graph Theory, Traversal, Shortest Paths\Salaries\Salaries.csproj", "{3A7582EF-7289-4904-9713-C2596B86AB8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -233,6 +235,10 @@ Global
 		{172F0307-9D8B-4914-9C68-0BDB9AFAC81F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{172F0307-9D8B-4914-9C68-0BDB9AFAC81F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{172F0307-9D8B-4914-9C68-0BDB9AFAC81F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A7582EF-7289-4904-9713-C2596B86AB8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A7582EF-7289-4904-9713-C2596B86AB8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A7582EF-7289-4904-9713-C2596B86AB8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A7582EF-7289-4904-9713-C2596B86AB8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -274,6 +280,7 @@ Global
 		{79CFD621-9B5B-4DCE-9CDC-E35AD288B1B2} = {2D7055CD-6C62-4A36-A8A0-D12E8AA19307}
 		{BB8FCEF6-D58D-41D2-AF2A-FA25553BF0F0} = {2D7055CD-6C62-4A36-A8A0-D12E8AA19307}
 		{172F0307-9D8B-4914-9C68-0BDB9AFAC81F} = {2D7055CD-6C62-4A36-A8A0-D12E8AA19307}
+		{3A7582EF-7289-4904-9713-C2596B86AB8A} = {2D7055CD-6C62-4A36-A8A0-D12E8AA19307}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81AB49DE-2047-4F06-AD90-24A5F08CD024}
