@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace Salaries
 {
@@ -35,8 +34,9 @@ namespace Salaries
 
             var sum = 0;
 
-            foreach (var child in children)
+            for (var index = 0; index < children.Count; index++)
             {
+                var child = children[index];
                 sum += GetSalary(child);
             }
 
