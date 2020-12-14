@@ -81,6 +81,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceBetweenVertices", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreasInMatrix", "Graph Theory, Traversal, Shortest Paths\AreasInMatrix\AreasInMatrix.csproj", "{BB8FCEF6-D58D-41D2-AF2A-FA25553BF0F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyclesInAGraph", "Graph Theory, Traversal, Shortest Paths\CyclesInAGraph\CyclesInAGraph.csproj", "{172F0307-9D8B-4914-9C68-0BDB9AFAC81F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -227,6 +229,10 @@ Global
 		{BB8FCEF6-D58D-41D2-AF2A-FA25553BF0F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB8FCEF6-D58D-41D2-AF2A-FA25553BF0F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB8FCEF6-D58D-41D2-AF2A-FA25553BF0F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{172F0307-9D8B-4914-9C68-0BDB9AFAC81F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{172F0307-9D8B-4914-9C68-0BDB9AFAC81F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{172F0307-9D8B-4914-9C68-0BDB9AFAC81F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{172F0307-9D8B-4914-9C68-0BDB9AFAC81F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -267,6 +273,7 @@ Global
 		{61B5EF7A-6146-4463-8E25-70F733DCB5C7} = {2D7055CD-6C62-4A36-A8A0-D12E8AA19307}
 		{79CFD621-9B5B-4DCE-9CDC-E35AD288B1B2} = {2D7055CD-6C62-4A36-A8A0-D12E8AA19307}
 		{BB8FCEF6-D58D-41D2-AF2A-FA25553BF0F0} = {2D7055CD-6C62-4A36-A8A0-D12E8AA19307}
+		{172F0307-9D8B-4914-9C68-0BDB9AFAC81F} = {2D7055CD-6C62-4A36-A8A0-D12E8AA19307}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81AB49DE-2047-4F06-AD90-24A5F08CD024}

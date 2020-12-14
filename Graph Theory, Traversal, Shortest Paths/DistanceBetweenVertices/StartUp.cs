@@ -6,14 +6,14 @@ namespace DistanceBetweenVertices
 {
     public class StartUp
     {
-        private static Dictionary<int, List<int>> graph;
+        private static Dictionary<int, List<int>> _graph;
 
         public static void Main()
         {
             var graphElements = int.Parse(Console.ReadLine());
             var numberOfResults = int.Parse(Console.ReadLine());
 
-            graph = ReadGraph(graphElements);
+            _graph = ReadGraph(graphElements);
 
             for (int i = 0; i < numberOfResults; i++)
             {
@@ -47,7 +47,7 @@ namespace DistanceBetweenVertices
                     return steps[node];
                 }
 
-                foreach (var child in graph[node].Where(child => !steps.ContainsKey(child)))
+                foreach (var child in _graph[node].Where(child => !steps.ContainsKey(child)))
                 {
                     queue.Enqueue(child);
                     steps[child] = steps[node] + 1;

@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.Design;
-using System.Linq;
 
 namespace AreasInMatrix
 {
@@ -16,25 +14,25 @@ namespace AreasInMatrix
         }
         */
 
-        private static char[,] matrix;
-        private static bool[,] visited;
+        private static char[,] _matrix;
+        private static bool[,] _visited;
 
         public static void Main()
         {
             var rows = int.Parse(Console.ReadLine());
             var cols = int.Parse(Console.ReadLine());
 
-            matrix = ReadMatrix(rows, cols);
-            visited = new bool[rows, cols];
+            _matrix = ReadMatrix(rows, cols);
+            _visited = new bool[rows, cols];
 
             var areas = new SortedDictionary<char, int>();
             var counter = 0;
 
-            for (int row = 0; row < matrix.GetLength(0); row++)
+            for (int row = 0; row < _matrix.GetLength(0); row++)
             {
-                for (int col = 0; col < matrix.GetLength(1); col++)
+                for (int col = 0; col < _matrix.GetLength(1); col++)
                 {
-                    if (visited[row, col])
+                    if (_visited[row, col])
                     {
                         continue;
                     }
@@ -42,8 +40,8 @@ namespace AreasInMatrix
                     DFS(row, col);
                     counter++;
 
-                    var key = matrix[row, col];
-                    if (!areas.ContainsKey(matrix[row, col]))
+                    var key = _matrix[row, col];
+                    if (!areas.ContainsKey(_matrix[row, col]))
                     {
                         areas.Add(key, 1);
                     }
@@ -64,7 +62,7 @@ namespace AreasInMatrix
 
         private static void DFS(int row, int col)
         {
-            visited[row, col] = true;
+            _visited[row, col] = true;
 
             var children = GetChildren(row, col);
 
@@ -77,19 +75,19 @@ namespace AreasInMatrix
         private static List<Node> GetChildren(int row, int col)
         {
             var result = new List<Node>();
-            if (IsInside(row - 1, col) && IsChild(row, col, row - 1, col) && !visited[row - 1, col])
+            if (IsInside(row - 1, col) && IsChild(row, col, row - 1, col) && !_visited[row - 1, col])
             {
                 result.Add(new Node() { Row = row - 1, Col = col });
             }
-            if (IsInside(row + 1, col) && IsChild(row, col, row + 1, col) && !visited[row + 1, col])
+            if (IsInside(row + 1, col) && IsChild(row, col, row + 1, col) && !_visited[row + 1, col])
             {
                 result.Add(new Node() { Row = row + 1, Col = col });
             }
-            if (IsInside(row, col + 1) && IsChild(row, col, row, col + 1) && !visited[row, col + 1])
+            if (IsInside(row, col + 1) && IsChild(row, col, row, col + 1) && !_visited[row, col + 1])
             {
                 result.Add(new Node() { Row = row, Col = col + 1 });
             }
-            if (IsInside(row, col - 1) && IsChild(row, col, row, col - 1) && !visited[row, col - 1])
+            if (IsInside(row, col - 1) && IsChild(row, col, row, col - 1) && !_visited[row, col - 1])
             {
                 result.Add(new Node() { Row = row, Col = col - 1 });
             }
@@ -97,9 +95,9 @@ namespace AreasInMatrix
             return result;
         }
 
-        private static bool IsChild(int parentRow, int parentCol, int childRow, int childCol) => matrix[parentRow, parentCol] == matrix[childRow, childCol];
+        private static bool IsChild(int parentRow, int parentCol, int childRow, int childCol) => _matrix[parentRow, parentCol] == _matrix[childRow, childCol];
 
-        private static bool IsInside(int row, int col) => row >= 0 && row < matrix.GetLength(0) && col >= 0 && col < matrix.GetLength(1);
+        private static bool IsInside(int row, int col) => row >= 0 && row < _matrix.GetLength(0) && col >= 0 && col < _matrix.GetLength(1);
 
         private static char[,] ReadMatrix(int rows, int cols)
         {
