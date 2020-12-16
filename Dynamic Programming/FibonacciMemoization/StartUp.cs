@@ -5,7 +5,7 @@ namespace FibonacciMemoization
 {
     public class StartUp
     {
-        static void Main()
+        public static void Main()
         {
             var memory = new Dictionary<int, long>();
             var number = int.Parse(Console.ReadLine());
