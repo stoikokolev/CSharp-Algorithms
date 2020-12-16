@@ -91,6 +91,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dynamic Programming", "Dyna
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciMemoization", "Dynamic Programming\FibonacciMemoization\FibonacciMemoization.csproj", "{42C19131-3D33-4708-A072-4BADAD136C73}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubsetSum", "Dynamic Programming\SubsetSum\SubsetSum.csproj", "{02B4E83A-1B67-4FF6-B40D-D1C6C5C0C5C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -253,6 +255,10 @@ Global
 		{42C19131-3D33-4708-A072-4BADAD136C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42C19131-3D33-4708-A072-4BADAD136C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42C19131-3D33-4708-A072-4BADAD136C73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02B4E83A-1B67-4FF6-B40D-D1C6C5C0C5C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02B4E83A-1B67-4FF6-B40D-D1C6C5C0C5C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02B4E83A-1B67-4FF6-B40D-D1C6C5C0C5C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02B4E83A-1B67-4FF6-B40D-D1C6C5C0C5C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -297,6 +303,7 @@ Global
 		{3A7582EF-7289-4904-9713-C2596B86AB8A} = {2D7055CD-6C62-4A36-A8A0-D12E8AA19307}
 		{5881BD32-88A0-4B3F-983D-6D131AD27152} = {2D7055CD-6C62-4A36-A8A0-D12E8AA19307}
 		{42C19131-3D33-4708-A072-4BADAD136C73} = {C07BCF43-510A-4EAF-BD9F-9DE215DFEC84}
+		{02B4E83A-1B67-4FF6-B40D-D1C6C5C0C5C7} = {C07BCF43-510A-4EAF-BD9F-9DE215DFEC84}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81AB49DE-2047-4F06-AD90-24A5F08CD024}
