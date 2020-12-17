@@ -89,15 +89,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BreakCycles", "Graph Theory
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dynamic Programming", "Dynamic Programming", "{C07BCF43-510A-4EAF-BD9F-9DE215DFEC84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciMemoization", "Dynamic Programming\FibonacciMemoization\FibonacciMemoization.csproj", "{42C19131-3D33-4708-A072-4BADAD136C73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FibonacciMemoization", "Dynamic Programming\FibonacciMemoization\FibonacciMemoization.csproj", "{42C19131-3D33-4708-A072-4BADAD136C73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubsetSum", "Dynamic Programming\SubsetSum\SubsetSum.csproj", "{02B4E83A-1B67-4FF6-B40D-D1C6C5C0C5C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubsetSum", "Dynamic Programming\SubsetSum\SubsetSum.csproj", "{02B4E83A-1B67-4FF6-B40D-D1C6C5C0C5C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubsetSumsWithRepetition", "Dynamic Programming\SubsetSumsWithRepetition\SubsetSumsWithRepetition.csproj", "{0F04B933-56A3-4A88-B433-10C861CE4957}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubsetSumsWithRepetition", "Dynamic Programming\SubsetSumsWithRepetition\SubsetSumsWithRepetition.csproj", "{0F04B933-56A3-4A88-B433-10C861CE4957}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveDownRightSum", "Dynamic Programming\MoveDownRightSum\MoveDownRightSum.csproj", "{01F47852-612E-46BB-94ED-46C030223753}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoveDownRightSum", "Dynamic Programming\MoveDownRightSum\MoveDownRightSum.csproj", "{01F47852-612E-46BB-94ED-46C030223753}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestCommonSubsequence", "Dynamic Programming\LongestCommonSubsequence\LongestCommonSubsequence.csproj", "{5ACEC3CB-8F61-4903-9FCA-CB783F9005CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestCommonSubsequence", "Dynamic Programming\LongestCommonSubsequence\LongestCommonSubsequence.csproj", "{5ACEC3CB-8F61-4903-9FCA-CB783F9005CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinomialCoefficients", "Dynamic Programming\BinomialCoefficients\BinomialCoefficients.csproj", "{F17E73DD-63AF-4C39-94E9-F784E8D484BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DividingPresents", "Dynamic Programming\DividingPresents\DividingPresents.csproj", "{49F61342-CF36-4015-ADA7-2569E9E81667}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -277,6 +281,14 @@ Global
 		{5ACEC3CB-8F61-4903-9FCA-CB783F9005CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5ACEC3CB-8F61-4903-9FCA-CB783F9005CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5ACEC3CB-8F61-4903-9FCA-CB783F9005CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F17E73DD-63AF-4C39-94E9-F784E8D484BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F17E73DD-63AF-4C39-94E9-F784E8D484BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F17E73DD-63AF-4C39-94E9-F784E8D484BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F17E73DD-63AF-4C39-94E9-F784E8D484BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49F61342-CF36-4015-ADA7-2569E9E81667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49F61342-CF36-4015-ADA7-2569E9E81667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49F61342-CF36-4015-ADA7-2569E9E81667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49F61342-CF36-4015-ADA7-2569E9E81667}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -325,6 +337,8 @@ Global
 		{0F04B933-56A3-4A88-B433-10C861CE4957} = {C07BCF43-510A-4EAF-BD9F-9DE215DFEC84}
 		{01F47852-612E-46BB-94ED-46C030223753} = {C07BCF43-510A-4EAF-BD9F-9DE215DFEC84}
 		{5ACEC3CB-8F61-4903-9FCA-CB783F9005CE} = {C07BCF43-510A-4EAF-BD9F-9DE215DFEC84}
+		{F17E73DD-63AF-4C39-94E9-F784E8D484BB} = {C07BCF43-510A-4EAF-BD9F-9DE215DFEC84}
+		{49F61342-CF36-4015-ADA7-2569E9E81667} = {C07BCF43-510A-4EAF-BD9F-9DE215DFEC84}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81AB49DE-2047-4F06-AD90-24A5F08CD024}
