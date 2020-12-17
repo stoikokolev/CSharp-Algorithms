@@ -99,15 +99,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoveDownRightSum", "Dynamic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestCommonSubsequence", "Dynamic Programming\LongestCommonSubsequence\LongestCommonSubsequence.csproj", "{5ACEC3CB-8F61-4903-9FCA-CB783F9005CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinomialCoefficients", "Dynamic Programming\BinomialCoefficients\BinomialCoefficients.csproj", "{F17E73DD-63AF-4C39-94E9-F784E8D484BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinomialCoefficients", "Dynamic Programming\BinomialCoefficients\BinomialCoefficients.csproj", "{F17E73DD-63AF-4C39-94E9-F784E8D484BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DividingPresents", "Dynamic Programming\DividingPresents\DividingPresents.csproj", "{49F61342-CF36-4015-ADA7-2569E9E81667}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DividingPresents", "Dynamic Programming\DividingPresents\DividingPresents.csproj", "{49F61342-CF36-4015-ADA7-2569E9E81667}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumWithUnlimitedCoins", "Dynamic Programming\SumWithUnlimitedCoins\SumWithUnlimitedCoins.csproj", "{816E14B2-3B6D-4453-8DFF-0DD38B722014}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumWithUnlimitedCoins", "Dynamic Programming\SumWithUnlimitedCoins\SumWithUnlimitedCoins.csproj", "{816E14B2-3B6D-4453-8DFF-0DD38B722014}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumWIthLimitedAmountOfCoins", "Dynamic Programming\SumWIthLimitedAmountOfCoins\SumWIthLimitedAmountOfCoins.csproj", "{AA3B70B0-82C2-4149-80A7-C2EE6A131009}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumWIthLimitedAmountOfCoins", "Dynamic Programming\SumWIthLimitedAmountOfCoins\SumWIthLimitedAmountOfCoins.csproj", "{AA3B70B0-82C2-4149-80A7-C2EE6A131009}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordDifferences", "Dynamic Programming\WordDifferences\WordDifferences.csproj", "{2C30C619-D5AA-4032-9C7B-B5FBFFE00922}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordDifferences", "Dynamic Programming\WordDifferences\WordDifferences.csproj", "{2C30C619-D5AA-4032-9C7B-B5FBFFE00922}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectingCables", "Dynamic Programming\ConnectingCables\ConnectingCables.csproj", "{CDDA32C4-2292-4174-AE86-456763F2079F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -307,6 +309,10 @@ Global
 		{2C30C619-D5AA-4032-9C7B-B5FBFFE00922}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C30C619-D5AA-4032-9C7B-B5FBFFE00922}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C30C619-D5AA-4032-9C7B-B5FBFFE00922}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDDA32C4-2292-4174-AE86-456763F2079F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDDA32C4-2292-4174-AE86-456763F2079F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDDA32C4-2292-4174-AE86-456763F2079F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDDA32C4-2292-4174-AE86-456763F2079F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -360,6 +366,7 @@ Global
 		{816E14B2-3B6D-4453-8DFF-0DD38B722014} = {C07BCF43-510A-4EAF-BD9F-9DE215DFEC84}
 		{AA3B70B0-82C2-4149-80A7-C2EE6A131009} = {C07BCF43-510A-4EAF-BD9F-9DE215DFEC84}
 		{2C30C619-D5AA-4032-9C7B-B5FBFFE00922} = {C07BCF43-510A-4EAF-BD9F-9DE215DFEC84}
+		{CDDA32C4-2292-4174-AE86-456763F2079F} = {C07BCF43-510A-4EAF-BD9F-9DE215DFEC84}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81AB49DE-2047-4F06-AD90-24A5F08CD024}
