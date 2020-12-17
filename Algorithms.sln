@@ -103,6 +103,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinomialCoefficients", "Dyn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DividingPresents", "Dynamic Programming\DividingPresents\DividingPresents.csproj", "{49F61342-CF36-4015-ADA7-2569E9E81667}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumWithUnlimitedCoins", "Dynamic Programming\SumWithUnlimitedCoins\SumWithUnlimitedCoins.csproj", "{816E14B2-3B6D-4453-8DFF-0DD38B722014}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumWIthLimitedAmountOfCoins", "Dynamic Programming\SumWIthLimitedAmountOfCoins\SumWIthLimitedAmountOfCoins.csproj", "{AA3B70B0-82C2-4149-80A7-C2EE6A131009}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -289,6 +293,14 @@ Global
 		{49F61342-CF36-4015-ADA7-2569E9E81667}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49F61342-CF36-4015-ADA7-2569E9E81667}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49F61342-CF36-4015-ADA7-2569E9E81667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{816E14B2-3B6D-4453-8DFF-0DD38B722014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{816E14B2-3B6D-4453-8DFF-0DD38B722014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{816E14B2-3B6D-4453-8DFF-0DD38B722014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{816E14B2-3B6D-4453-8DFF-0DD38B722014}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA3B70B0-82C2-4149-80A7-C2EE6A131009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA3B70B0-82C2-4149-80A7-C2EE6A131009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA3B70B0-82C2-4149-80A7-C2EE6A131009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA3B70B0-82C2-4149-80A7-C2EE6A131009}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -339,6 +351,8 @@ Global
 		{5ACEC3CB-8F61-4903-9FCA-CB783F9005CE} = {C07BCF43-510A-4EAF-BD9F-9DE215DFEC84}
 		{F17E73DD-63AF-4C39-94E9-F784E8D484BB} = {C07BCF43-510A-4EAF-BD9F-9DE215DFEC84}
 		{49F61342-CF36-4015-ADA7-2569E9E81667} = {C07BCF43-510A-4EAF-BD9F-9DE215DFEC84}
+		{816E14B2-3B6D-4453-8DFF-0DD38B722014} = {C07BCF43-510A-4EAF-BD9F-9DE215DFEC84}
+		{AA3B70B0-82C2-4149-80A7-C2EE6A131009} = {C07BCF43-510A-4EAF-BD9F-9DE215DFEC84}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81AB49DE-2047-4F06-AD90-24A5F08CD024}
