@@ -109,7 +109,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumWIthLimitedAmountOfCoins
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordDifferences", "Dynamic Programming\WordDifferences\WordDifferences.csproj", "{2C30C619-D5AA-4032-9C7B-B5FBFFE00922}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectingCables", "Dynamic Programming\ConnectingCables\ConnectingCables.csproj", "{CDDA32C4-2292-4174-AE86-456763F2079F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConnectingCables", "Dynamic Programming\ConnectingCables\ConnectingCables.csproj", "{CDDA32C4-2292-4174-AE86-456763F2079F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exams", "Exams", "{3E0CA9F4-5C73-4CB4-90CA-19FC61BFD1D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoMinutesToMidnight", "Exams\TwoMinutesToMidnight\TwoMinutesToMidnight.csproj", "{FF574591-E35D-4792-848A-6C6F57EB2DA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Time", "Exams\Time\Time.csproj", "{0998A965-1181-4E1D-94C4-CC5AC5F3F668}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -313,6 +319,14 @@ Global
 		{CDDA32C4-2292-4174-AE86-456763F2079F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDDA32C4-2292-4174-AE86-456763F2079F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDDA32C4-2292-4174-AE86-456763F2079F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF574591-E35D-4792-848A-6C6F57EB2DA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF574591-E35D-4792-848A-6C6F57EB2DA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF574591-E35D-4792-848A-6C6F57EB2DA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF574591-E35D-4792-848A-6C6F57EB2DA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0998A965-1181-4E1D-94C4-CC5AC5F3F668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0998A965-1181-4E1D-94C4-CC5AC5F3F668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0998A965-1181-4E1D-94C4-CC5AC5F3F668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0998A965-1181-4E1D-94C4-CC5AC5F3F668}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -367,6 +381,8 @@ Global
 		{AA3B70B0-82C2-4149-80A7-C2EE6A131009} = {C07BCF43-510A-4EAF-BD9F-9DE215DFEC84}
 		{2C30C619-D5AA-4032-9C7B-B5FBFFE00922} = {C07BCF43-510A-4EAF-BD9F-9DE215DFEC84}
 		{CDDA32C4-2292-4174-AE86-456763F2079F} = {C07BCF43-510A-4EAF-BD9F-9DE215DFEC84}
+		{FF574591-E35D-4792-848A-6C6F57EB2DA5} = {3E0CA9F4-5C73-4CB4-90CA-19FC61BFD1D4}
+		{0998A965-1181-4E1D-94C4-CC5AC5F3F668} = {3E0CA9F4-5C73-4CB4-90CA-19FC61BFD1D4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81AB49DE-2047-4F06-AD90-24A5F08CD024}
