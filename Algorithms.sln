@@ -113,11 +113,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConnectingCables", "Dynamic
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exams", "Exams", "{3E0CA9F4-5C73-4CB4-90CA-19FC61BFD1D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoMinutesToMidnight", "Exams\TwoMinutesToMidnight\TwoMinutesToMidnight.csproj", "{FF574591-E35D-4792-848A-6C6F57EB2DA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoMinutesToMidnight", "Exams\TwoMinutesToMidnight\TwoMinutesToMidnight.csproj", "{FF574591-E35D-4792-848A-6C6F57EB2DA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Time", "Exams\Time\Time.csproj", "{0998A965-1181-4E1D-94C4-CC5AC5F3F668}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Time", "Exams\Time\Time.csproj", "{0998A965-1181-4E1D-94C4-CC5AC5F3F668}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheStoryTelling", "Exams\TheStoryTelling\TheStoryTelling.csproj", "{6B749034-73DC-412D-8722-76902A8A8427}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheStoryTelling", "Exams\TheStoryTelling\TheStoryTelling.csproj", "{6B749034-73DC-412D-8722-76902A8A8427}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetCover", "Sorting Algorithms\SetCover\SetCover.csproj", "{8C4EF27E-F277-451B-A920-94AA60AAD959}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -333,6 +335,10 @@ Global
 		{6B749034-73DC-412D-8722-76902A8A8427}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B749034-73DC-412D-8722-76902A8A8427}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B749034-73DC-412D-8722-76902A8A8427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C4EF27E-F277-451B-A920-94AA60AAD959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C4EF27E-F277-451B-A920-94AA60AAD959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C4EF27E-F277-451B-A920-94AA60AAD959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C4EF27E-F277-451B-A920-94AA60AAD959}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -390,6 +396,7 @@ Global
 		{FF574591-E35D-4792-848A-6C6F57EB2DA5} = {3E0CA9F4-5C73-4CB4-90CA-19FC61BFD1D4}
 		{0998A965-1181-4E1D-94C4-CC5AC5F3F668} = {3E0CA9F4-5C73-4CB4-90CA-19FC61BFD1D4}
 		{6B749034-73DC-412D-8722-76902A8A8427} = {3E0CA9F4-5C73-4CB4-90CA-19FC61BFD1D4}
+		{8C4EF27E-F277-451B-A920-94AA60AAD959} = {D4BB134E-266A-4387-8B3E-3DAFECD76935}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81AB49DE-2047-4F06-AD90-24A5F08CD024}
