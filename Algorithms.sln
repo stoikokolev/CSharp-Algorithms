@@ -121,7 +121,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheStoryTelling", "Exams\Th
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SetCover", "Sorting Algorithms\SetCover\SetCover.csproj", "{8C4EF27E-F277-451B-A920-94AA60AAD959}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadReconstruction", "Graph Theory, Traversal, Shortest Paths\RoadReconstruction\RoadReconstruction.csproj", "{46181DA3-F4E9-4167-B35E-79CE4924C30E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoadReconstruction", "Graph Theory, Traversal, Shortest Paths\RoadReconstruction\RoadReconstruction.csproj", "{46181DA3-F4E9-4167-B35E-79CE4924C30E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PathFinder", "exam\exam3\PathFinder.csproj", "{53FB2D4E-E793-451A-8375-890DB69387D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Socks", "Exams\exam2\Socks.csproj", "{4F8210EA-873B-4ED6-BE08-CFCB0CA477FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TBC", "Graph Theory, Traversal, Shortest Paths\exam1\TBC.csproj", "{79AC4926-A1F2-4898-B110-E73E1AD473C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -345,6 +351,18 @@ Global
 		{46181DA3-F4E9-4167-B35E-79CE4924C30E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46181DA3-F4E9-4167-B35E-79CE4924C30E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46181DA3-F4E9-4167-B35E-79CE4924C30E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53FB2D4E-E793-451A-8375-890DB69387D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53FB2D4E-E793-451A-8375-890DB69387D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53FB2D4E-E793-451A-8375-890DB69387D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53FB2D4E-E793-451A-8375-890DB69387D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F8210EA-873B-4ED6-BE08-CFCB0CA477FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F8210EA-873B-4ED6-BE08-CFCB0CA477FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F8210EA-873B-4ED6-BE08-CFCB0CA477FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F8210EA-873B-4ED6-BE08-CFCB0CA477FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79AC4926-A1F2-4898-B110-E73E1AD473C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79AC4926-A1F2-4898-B110-E73E1AD473C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79AC4926-A1F2-4898-B110-E73E1AD473C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79AC4926-A1F2-4898-B110-E73E1AD473C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -404,6 +422,9 @@ Global
 		{6B749034-73DC-412D-8722-76902A8A8427} = {3E0CA9F4-5C73-4CB4-90CA-19FC61BFD1D4}
 		{8C4EF27E-F277-451B-A920-94AA60AAD959} = {D4BB134E-266A-4387-8B3E-3DAFECD76935}
 		{46181DA3-F4E9-4167-B35E-79CE4924C30E} = {2D7055CD-6C62-4A36-A8A0-D12E8AA19307}
+		{53FB2D4E-E793-451A-8375-890DB69387D8} = {2D7055CD-6C62-4A36-A8A0-D12E8AA19307}
+		{4F8210EA-873B-4ED6-BE08-CFCB0CA477FE} = {C07BCF43-510A-4EAF-BD9F-9DE215DFEC84}
+		{79AC4926-A1F2-4898-B110-E73E1AD473C8} = {2D7055CD-6C62-4A36-A8A0-D12E8AA19307}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81AB49DE-2047-4F06-AD90-24A5F08CD024}
