@@ -129,6 +129,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PathFinder", "Graph Theory,
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Socks", "Dynamic Programming\Socks\Socks.csproj", "{1AD59F7C-3468-4D73-9B8B-E869E99316C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumEditDistance", "Dynamic Programming\MinimumEditDistance\MinimumEditDistance.csproj", "{5862D378-B7D3-40AC-94A1-FC9426B170B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -363,6 +365,10 @@ Global
 		{1AD59F7C-3468-4D73-9B8B-E869E99316C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AD59F7C-3468-4D73-9B8B-E869E99316C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AD59F7C-3468-4D73-9B8B-E869E99316C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5862D378-B7D3-40AC-94A1-FC9426B170B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5862D378-B7D3-40AC-94A1-FC9426B170B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5862D378-B7D3-40AC-94A1-FC9426B170B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5862D378-B7D3-40AC-94A1-FC9426B170B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -425,6 +431,7 @@ Global
 		{BCFB58D1-776D-4D70-BB3F-A461C43E9564} = {2D7055CD-6C62-4A36-A8A0-D12E8AA19307}
 		{BCC2A168-486D-4688-8646-2A5431E0D49E} = {2D7055CD-6C62-4A36-A8A0-D12E8AA19307}
 		{1AD59F7C-3468-4D73-9B8B-E869E99316C9} = {C07BCF43-510A-4EAF-BD9F-9DE215DFEC84}
+		{5862D378-B7D3-40AC-94A1-FC9426B170B7} = {C07BCF43-510A-4EAF-BD9F-9DE215DFEC84}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81AB49DE-2047-4F06-AD90-24A5F08CD024}
