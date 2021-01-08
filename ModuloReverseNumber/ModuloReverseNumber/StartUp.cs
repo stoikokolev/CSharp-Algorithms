@@ -1,38 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading;
 
 namespace ModuloReverseNumber
 {
-    class StartUp
+    public class StartUp
     {
-        static void Main()
+        public static void Main()
         {
             Console.WriteLine("POWERED BY KST Tech. College");
-
             Console.WriteLine();
 
-            int modulo;
-            while (true)
-            {
-                Console.Write("Enter modulo:");
-                modulo = int.Parse(Console.ReadLine());
-
-                if (modulo <= 1)
-                {
-                    Console.WriteLine("Modulo must be less than 2");
-                }
-                else if (modulo > 100)
-                {
-                    Console.WriteLine("Modulo must be greater than 100");
-                }
-                else
-                {
-                    break;
-                }
-            }
-
-            Console.WriteLine();
+            var modulo = UserInputModulo();
 
             var table = CreateMatrix(modulo);
 
@@ -40,16 +20,59 @@ namespace ModuloReverseNumber
 
             var reverseDict = FindReversibleTuples(reversibleNumbers, table);
 
-            Console.WriteLine();
-
             PrintReversedTuples(reverseDict);
 
-            Console.WriteLine();
+            Delay();
 
             PrintMatrix(modulo, table);
         }
 
-        private static Dictionary<int, int> FindReversibleTuples(List<int> reversibleNumbers, int[,] table)
+        private static void Delay()
+        {
+            Console.Write("Loading multiply table.");
+
+            for (int i = 0; i < 15; i++)
+            {
+                Thread.Sleep(500);
+                Console.Write(".");
+            }
+
+            Console.WriteLine();
+        }
+
+        private static int UserInputModulo()
+        {
+            var isInputValid = false;
+            var modulo = int.MinValue;
+
+            while (!isInputValid)
+            {
+                Console.Write("Enter modulo number: ");
+                string input = Console.ReadLine();
+                try
+                {
+                    modulo = int.Parse(input);
+                    if (modulo >= 2 && modulo <= 100)
+                    {
+                        isInputValid = true;
+                    }
+                    else
+                    {
+                        throw new FormatException();
+                    }
+                }
+                catch (FormatException)
+                {
+                    Console.WriteLine($"Enter valid number from 2 to 100");
+                }
+            }
+
+            Console.WriteLine();
+
+            return modulo;
+        }
+
+        private static Dictionary<int, int> FindReversibleTuples(IEnumerable<int> reversibleNumbers, int[,] table)
         {
             var reverseDict = new Dictionary<int, int> { { 1, 1 } };
 
@@ -73,33 +96,41 @@ namespace ModuloReverseNumber
             {
                 Console.WriteLine($"Reversed of {key} is {value}");
             }
+
+            Console.WriteLine();
         }
 
-        private static List<int> FindReversibleNumbers(int modulo)
+        private static int GreatestCommonDivisor(int num1, int num2)
+        {
+            while (num2 != 0)
+            {
+                var remainder = num1 % num2;
+                num1 = num2;
+                num2 = remainder;
+            }
+
+            return num1;
+        }
+
+        private static IEnumerable<int> FindReversibleNumbers(int modulo)
         {
             var reversibleNumbers = new List<int> { 1 };
             for (int i = 2; i < modulo; i++)
             {
-                var a = i;
-                var b = modulo;
-
-                int Remainder;
-
-                while (b != 0)
-                {
-                    Remainder = a % b;
-                    a = b;
-                    b = Remainder;
-                }
-
-                if (a == 1)
+                if (GreatestCommonDivisor(i, modulo) == 1)
                 {
                     reversibleNumbers.Add(i);
                 }
             }
 
-            Console.WriteLine($"Reversible numbers are: {string.Join(", ", reversibleNumbers)}");
+            PrintReversibleNumbers(reversibleNumbers);
             return reversibleNumbers;
+        }
+
+        private static void PrintReversibleNumbers(IEnumerable<int> reversibleNumbers)
+        {
+            Console.WriteLine($"Reversible numbers are: {string.Join(", ", reversibleNumbers)}");
+            Console.WriteLine();
         }
 
         private static int[,] CreateMatrix(int modulo)
@@ -119,6 +150,7 @@ namespace ModuloReverseNumber
 
         private static void PrintMatrix(int modulo, int[,] table)
         {
+            Console.WriteLine();
             var sb = new StringBuilder();
 
             sb.Append("   ");
@@ -140,10 +172,7 @@ namespace ModuloReverseNumber
                 sb.AppendLine();
             }
 
-            if (modulo < 30)
-            {
-                Console.WriteLine(sb.ToString());
-            }
+            Console.WriteLine(modulo < 30 ? sb.ToString() : "Unable to generate table when modulo is greater than 30!");
         }
     }
 }
